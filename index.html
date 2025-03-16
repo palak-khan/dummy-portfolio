@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/fav-icon-logo.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav--logo"> Your Name</a>
+        <div class="nav--menu" id="nav-menu">
+          <ul class="nav--list grid">
+            <li class="nav--item">
+              <a href="#home" class="nav--link active-link">
+                <i class="ri-home-5-line"></i> Home
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#projects" class="nav--link">
+                <i class="ri-image-line"></i> Projects
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#skills" class="nav--link">
+                <i class="ri-trophy-line"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav--item">
+              <a href="#qualification" class="nav--link">
+                <i class="ri-book-open-line"></i> Qualification
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#services" class="nav--link">
+                <i class="ri-briefcase-line"></i> Services
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#contact" class="nav--link">
+                <i class="ri-chat-3-line"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <!-- Close-button -->
+          <div class="nav--close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav--buttons">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav--toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home--container container grid section--border">
+          <div class="home--data grid">
+            <h1 class="home--title">
+              Hi!<br />
+              I’m <span style="color: #028ea0">Your Name</span> <br />
+              <!-- Frontend Developer -->
+            </h1>
+            <div class="home--blob grid">
+              <div class="home--prefil">
+                <img src="" alt="Profile Pic" />
+              </div>
+              <img
+                src="assets/shape-wawes.svg"
+                alt=""
+                class="home--shape-wawes"
+              />
+              <img
+                src="assets/shape-circle.svg"
+                alt=""
+                class="home--shape-circle"
+              />
+            </div>
+
+            <ul class="home--social">
+              <a
+                href=""
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href=""
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+              <a
+                href=""
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-twitter-line"></i>
+              </a>
+            </ul>
+          </div>
+          <!--==================== HOME info 1 ====================-->
+          <div class="home--info">
+            <div>
+              <h3 class="home--info-title">ABOUT ME</h3>
+              <p class="home--info-description">
+                About You Description
+              </p>
+            </div>
+            <div>
+              <h3 class="home--info-title">MY RESUME</h3>
+              <a href="" class="home--info-description">Download ⬇️</a>
+            </div>
+            <div>
+              <h3 class="home--info-title">SAY HII 👋</h3>
+              <p class="home--info-description">Your Email</p>
+            </div>
+          </div>
+          <!--==================== HOME info 2 ====================-->
+          <div class="home--info">
+            <div>
+              <p class="home--info-number">Coding globally from India.</p>
+            </div>
+            <div>
+              <h3 class="home--info-title">Available for freelance work</h3>
+              <p class="home--info-number">Hire me</p>
+            </div>
+
+            <div>
+              <h3 class="home--info-title">COMPLETED PROJECTS</h3>
+              <p class="home--info-number">30+</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section--title">
+          Crafted with <span style="color: #028ea0"> love.</span>
+        </h2>
+        <span class="section--subtitle">
+          These are few of my recent works
+        </span>
+        <div class="container section--border">
+          <div class="projects--container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECTS Img ====================-->
+              <div class="projects--content swiper-slide">
+                <img alt="project-img" src="" class="projects--video" />
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Project Name</h1>
+                  <a href="" target="_blank" class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="projects--content swiper-slide">
+                <img alt="project-img" src="" class="projects--video" />
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Project Name</h1>
+                  <a href="" target="_blank" class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="projects--content swiper-slide">
+                <img alt="project-img" src="" class="projects--video" />
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Project Name</h1>
+                  <a href="" target="_blank" class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons swiper arrow -->
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section--title">
+          What I Am <span style="color: #028ea0">Good </span>At
+        </h2>
+        <span class="section--subtitle">Skills and Interests </span>
+        <div class="skills--container container grid section--border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills--content">
+            <h3 class="skills--title">
+              <i class="ri-braces-line"></i>
+            </h3>
+            <div class="skills--info">
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/html-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">HTML</h3>
+              </div>
+
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/css-3.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">CSS</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/tailwind-css-2.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Tailwind CSS</h3>
+              </div>
+
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/logo-javascript.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">JavaScript</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/gsap-greensock.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">GSAP</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/python-5.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Python</h3>
+              </div>
+
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/c-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">C</h3>
+              </div>
+            </div>
+          </div>
+          <!--==================== SKILLS 2 ====================-->
+
+          <div class="skills--content">
+            <h3 class="skills--title">
+              <i class="ri-pantone-line"></i>
+            </h3>
+            <div class="skills--info">
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/nodejs.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Node JS</h3>
+              </div>
+
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/mongodb-icon-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">MongoDB</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/angular-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Angular</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/react-2.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">React</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/git-icon.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Git</h3>
+              </div>
+              <div class="skills--data">
+                <div class="skills--blob">
+                  <img src="assets/github-icon-1.svg" alt="skills image" />
+                </div>
+                <h3 class="skills--name">Github</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section--title">Qualification</h2>
+        <span class="section--subtitle"> Education & Experience </span>
+
+        <div class="qualification--container container grid section--border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification--content">
+            <h3 class="qualification--title">
+              <i class="ri-pencil-ruler-2-line"></i>
+              Education
+            </h3>
+
+            <div class="qualfication--info">
+              <div>
+                <h3 class="qualification--name">Degrre</h3>
+                <span class="qualification--country"> College Name</span>
+                <span class="qualification--year">Duration</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification--content">
+            <h3 class="qualification--title">
+              <i class="ri-building-line"></i>
+              Work & Internships
+            </h3>
+
+            <div class="qualfication--info">
+              <div>
+                <h3 class="qualification--name">Intership Name</h3>
+                <span class="qualification--country">Company Name</span>
+                <span class="qualification--year">Duration </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/shape-circle.svg"
+          alt="qualification imgae"
+          class="qualification--img"
+        />
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section--title">Services</h2>
+        <span class="section--subtitle"> I can help you with </span>
+        <div class="services--container container grid section--border">
+          <div class="services--card">
+            <i class="ri-layout-4-line"></i>
+            <h2 class="services--title">
+              UI/UX <br />
+              Designer
+            </h2>
+            <p class="services--description">
+              Crafting seamless user experiences through intuitive interfaces,
+              blending creativity with user-centric design to elevate digital
+              interactions.
+            </p>
+
+            <div class="services--border"></div>
+          </div>
+
+          <div class="services--card">
+            <i class="ri-code-line"></i>
+            <h2 class="services--title">
+              Frontend <br />
+              Developer
+            </h2>
+            <p class="services--description">
+              Transforming design concepts into dynamic, responsive websites and
+              applications, utilizing HTML, CSS, and JavaScript to bring user
+              interfaces to life.
+            </p>
+
+            <div class="services--border"></div>
+          </div>
+
+          <div class="services--card">
+            <i class="ri-quill-pen-line"></i>
+            <h2 class="services--title">
+              Backend <br />
+              Developer
+            </h2>
+            <p class="services--description">
+              Architecting robust, scalable systems, adept at handling data
+              management and server-side logic to ensure efficient functionality
+              and performance.
+            </p>
+
+            <div class="services--border"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section--title">Testimonial</h2>
+        <span class="section--subtitle">My client saying</span>
+        <div class="container section--border">
+          <div class="testimonial--container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== TESTIMONIAL 1 ====================-->
+              <div class="testimonial--content swiper-slide">
+                <p class="testimonial--description">
+                  Working with Chris is to give a good impression, I carry out
+                  my project at a good cost, with excellent quality and
+                  attention. Great service and recommended.
+                </p>
+
+                <div>
+                  <h3 class="testimonial--name">Klay Harris</h3>
+                  <span class="testimonial--subtitle">Client</span>
+                </div>
+              </div>
+              <!--==================== TESTIMONIAL 2 ====================-->
+              <div class="testimonial--content swiper-slide">
+                <p class="testimonial--description">
+                  Working with Chris is to give a good impression, I carry out
+                  my project at a good cost, with excellent quality and
+                  attention. Great service and recommended.
+                </p>
+
+                <div>
+                  <h3 class="testimonial--name">Klay Harris</h3>
+                  <span class="testimonial--subtitle">Client</span>
+                </div>
+              </div>
+              <!--==================== TESTIMONIAL 3 ====================-->
+              <div class="testimonial--content swiper-slide">
+                <p class="testimonial--description">
+                  Working with Chris is to give a good impression, I carry out
+                  my project at a good cost, with excellent quality and
+                  attention. Great service and recommended.
+                </p>
+
+                <div>
+                  <h3 class="testimonial--name">Klay Harris</h3>
+                  <span class="testimonial--subtitle">Client</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons swiper arrow -->
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+        <img src="assets/shape-wawes.svg" alt="" class="testimonial--img" />
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="contact">
+      <!--==================== CONTACT ====================-->
+
+      <div class="footer--container container">
+        <h2 class="section--title footer--title">
+          Let’s <span style="color: #028ea0">Rock</span> Together
+        </h2>
+        <p>Get in touch</p>
+        <ul class="footer--list">
+          <li>
+            <a href="#home" class="footer--link">Home</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer--link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer--link">Projects</a>
+          </li>
+        </ul>
+        <ul class="footer--social">
+          <a href="" class="footer--social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="" class="footer--social-link">
+            <i class="ri-github-line"></i>
+          </a>
+          <a href="" class="footer--social-link">
+            <i class="ri-twitter-line"></i>
+          </a>
+        </ul>
+        <span class="footer--copy"> created with ❤️ by Smiling Dev</span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
