@@ -23,7 +23,7 @@ This is a fully responsive and modern portfolio website template that you can us
 ## How to Use
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   gh repo clone palak-khan/dummy-portfolio
    ```
 2. **Open the `index.html` file**
    - Modify the sections with your personal information.
