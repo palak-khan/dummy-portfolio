@@ -22,17 +22,17 @@ This is a fully responsive and modern portfolio website template that you can us
 
 ## How to Use
 1. **Clone the Repository**
-2. gh repo clone palak-khan/dummy-portfolio
- 
+   ```bash
+   git clone <repository-url>
    ```
-3. **Open the `index.html` file**
+2. **Open the `index.html` file**
    - Modify the sections with your personal information.
    - Update images and links to your projects.
-4. **Customize Styles**
+3. **Customize Styles**
    - Modify `styles.css` to change colors, fonts, or layout.
-5. **Enable Dark Mode**
+4. **Enable Dark Mode**
    - The dark mode toggle is built-in; you can customize the colors in CSS.
-6. **Deploy**
+5. **Deploy**
    - You can host it on GitHub Pages, Netlify, or Vercel easily.
 
 
